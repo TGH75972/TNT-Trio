@@ -1,33 +1,29 @@
 {
-	"schemaVersion": 1,
-	"id": "triotnt",
-	"version": "${version}",
-	"name": "Trio TNT",
-	"description": "A mod about three unique types of TNT's that you would not find in vanilla minecraft",
-	"authors": [
-		"Harshit"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/trio-tnt/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.tnt.triotnt.TrioTNT"
-		],
-		"client": [ "net.tnt.triotnt.TrioTNTClient"],
-
-	"mixins": [
-		"trio-tnt.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
-}
+  "schemaVersion": 1,
+  "id": "triotnt",
+  "version": "${version}",
+  "name": "Trio TNT",
+  "description": "Custom TNT mod with Geyser, Solar Flare, and Implosion types.",
+  "authors": [ "Me!" ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/triotnt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tnt.triotnt.TrioTNT"
+    ],
+    "client": [
+      "net.tnt.triotnt.TrioTNTClient"
+    ]
+  },
+  "mixins": [
+    "trio-tnt.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
 }
