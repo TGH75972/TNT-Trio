@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "trio-tnt",
+	"id": "triotnt",
 	"version": "${version}",
 	"name": "Trio TNT",
 	"description": "A mod about three unique types of TNT's that you would not find in vanilla minecraft",
 	"authors": [
-		"Me!"
+		"Harshit"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -19,10 +19,7 @@
 			"net.tnt.triotnt.TrioTNT"
 		],
 		"client": [ "net.tnt.triotnt.TrioTNTClient"],
-		"fabric-datagen": [
-			"net.tnt.triotnt.TrioTNTDataGenerator"
-		]
-	},
+
 	"mixins": [
 		"trio-tnt.mixins.json"
 	],
@@ -32,4 +29,5 @@
 		"java": ">=21",
 		"fabric-api": "*"
 	}
+}
 }
