@@ -1,4 +1,4 @@
-<b>A minecraft fabric 1.21 that adds three custom TNT'S to the game! <br>
+<b>A minecraft fabric 1.21 mod that adds three custom TNT'S to the game! <br>
 
 The three custom TNT's you can use are - 
 
