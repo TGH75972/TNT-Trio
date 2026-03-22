@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "Trio TNT",
   "description": "Custom TNT mod with Geyser, Solar Flare, and Implosion types.",
-  "authors": [ "Me!" ],
+  "authors": [ "Harshit" ],
   "contact": {},
   "license": "CC0-1.0",
   "icon": "assets/triotnt/icon.png",
